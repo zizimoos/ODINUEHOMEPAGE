@@ -20,7 +20,7 @@ const CoWoker01 = styled.div`
   &:hover {
     transform: scale(1.05, 1.05);
   }
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 `;
 const CoWoker02 = styled.div`
   width: 225px;
@@ -29,7 +29,7 @@ const CoWoker02 = styled.div`
   &:hover {
     transform: scale(1.05, 1.05);
   }
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 `;
 const CoWoker03 = styled.div`
   width: 225px;
@@ -38,7 +38,7 @@ const CoWoker03 = styled.div`
   &:hover {
     transform: scale(1.05, 1.05);
   }
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 `;
 export default () => (
   <SuperiorityThree>
