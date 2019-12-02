@@ -7,7 +7,7 @@ import SuperiorityThree from "../../Component/SuperiorityThree";
 const Container = styled.div`
   width: 900px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
 `;
 const MonePic = styled.div`
   width: 100%;
@@ -17,7 +17,6 @@ const MonePic = styled.div`
 
 const HomePresenter = () => (
   <Container>
-    <h1>Home</h1>
     <MonePic>M1 설명도</MonePic>
     <SuperiorityOne> </SuperiorityOne>
     <SuperiorityTwo> 차별성 2</SuperiorityTwo>
