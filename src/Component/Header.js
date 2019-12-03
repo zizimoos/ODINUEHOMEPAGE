@@ -17,7 +17,9 @@ const Header = styled.header`
   z-index: 10;
   box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
   @media only screen and (max-width: 768px) {
-    justify-content: center;
+    width: 100%;
+
+    align-items: center;
   }
 `;
 
@@ -26,7 +28,9 @@ const List = styled.ul`
   justify-content: flex-start;
   margin-right: 100px;
   @media only screen and (max-width: 768px) {
+    width: 100%;
     margin-right: 10px;
+    justify-content: space-between;
   }
 `;
 
