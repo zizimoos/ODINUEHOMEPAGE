@@ -5,25 +5,26 @@ const SuperiorityThree = styled.div`
   width: 100vw;
   height: 1200px;
   @media only screen and (max-width: 768px) {
-    height: 400px;
+    height: 1000px;
   }
-
   margin: 0 auto;
   background-color: #383f10;
 `;
 
 const GridContainer = styled.div`
   display: grid;
-  /* grid-template-columns: repeat(4, minmax(200px, 1fr)); */
   grid-template-columns: auto auto auto auto;
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, minmax(150px, 1fr));
+  }
   grid-gap: 0px;
-  /* height: 100%; */
 `;
 const CoWoker01 = styled.div`
   width: 100%;
   height: 300px;
   @media only screen and (max-width: 768px) {
-    height: 100px;
+    width: 100%;
+    height: 150px;
   }
   background-color: #900216;
   &:hover {
@@ -35,7 +36,7 @@ const CoWoker02 = styled.div`
   width: 100%;
   height: 300px;
   @media only screen and (max-width: 768px) {
-    height: 100px;
+    height: 150px;
   }
   background-color: #992216;
   &:hover {
@@ -47,7 +48,7 @@ const CoWoker03 = styled.div`
   width: 100%;
   height: 300px;
   @media only screen and (max-width: 768px) {
-    height: 100px;
+    height: 150px;
   }
   background-color: #902216;
   &:hover {
