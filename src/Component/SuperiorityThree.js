@@ -2,8 +2,13 @@ import React from "react";
 import styled from "styled-components";
 
 const SuperiorityThree = styled.div`
-  width: 100%;
-  height: 700px;
+  width: 100vw;
+  height: 1200px;
+  @media only screen and (max-width: 768px) {
+    height: 400px;
+  }
+
+  margin: 0 auto;
   background-color: #383f10;
 `;
 
@@ -15,17 +20,23 @@ const GridContainer = styled.div`
   /* height: 100%; */
 `;
 const CoWoker01 = styled.div`
-  width: 225px;
-  height: 200px;
-  background-color: #991016;
+  width: 100%;
+  height: 300px;
+  @media only screen and (max-width: 768px) {
+    height: 100px;
+  }
+  background-color: #900216;
   &:hover {
     transform: scale(1.05, 1.05);
   }
   transition: transform 0.3s ease-in-out;
 `;
 const CoWoker02 = styled.div`
-  width: 225px;
-  height: 200px;
+  width: 100%;
+  height: 300px;
+  @media only screen and (max-width: 768px) {
+    height: 100px;
+  }
   background-color: #992216;
   &:hover {
     transform: scale(1.05, 1.05);
@@ -33,8 +44,11 @@ const CoWoker02 = styled.div`
   transition: transform 0.3s ease-in-out;
 `;
 const CoWoker03 = styled.div`
-  width: 225px;
-  height: 200px;
+  width: 100%;
+  height: 300px;
+  @media only screen and (max-width: 768px) {
+    height: 100px;
+  }
   background-color: #902216;
   &:hover {
     transform: scale(1.05, 1.05);

@@ -3,15 +3,16 @@ import styled from "styled-components";
 import SuperiorityOne from "../../Component/SuperiorityOne";
 import SuperiorityTwo from "../../Component/SuperiorityTwo";
 import SuperiorityThree from "../../Component/SuperiorityThree";
+import Footer from "../../Component/Footer";
 
 const Container = styled.div`
-  width: 900px;
-  margin: 0 auto;
+  width: 100%;
   margin-top: 10px;
 `;
 const MonePic = styled.div`
-  width: 100%;
+  width: 100vw;
   height: 700px;
+  margin: 0 auto;
   background-color: #b0a8a6;
 `;
 

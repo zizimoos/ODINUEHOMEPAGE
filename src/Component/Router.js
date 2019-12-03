@@ -6,10 +6,10 @@ import {
   Switch
 } from "react-router-dom";
 import Header from "./Header";
-import Footer from "./Footer";
 import Home from "../Routes/Home";
 import Company from "../Routes/Company";
 import Product from "../Routes/Product";
+import Footer from "./Footer";
 
 export default () => (
   <Router>
@@ -20,6 +20,6 @@ export default () => (
       <Route path="/product" exact component={Product}></Route>
       <Redirect from="*" to="/" />
     </Switch>
-    <Footer></Footer>
+    <Footer />
   </Router>
 );
