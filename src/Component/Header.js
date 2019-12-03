@@ -16,6 +16,9 @@ const Header = styled.header`
   background-color: rgba(10, 30, 40, 0.8);
   z-index: 10;
   box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
+  @media (min-width: 320px) and (max-widith: 480) {
+    width: 100%;
+  }
 `;
 
 const List = styled.ul`
