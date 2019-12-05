@@ -17,7 +17,6 @@ const MonePic = styled.div`
 
 const HomePresenter = () => (
   <Container>
-    <MonePic>M1 설명도</MonePic>
     <SuperiorityOne> </SuperiorityOne>
     <SuperiorityTwo> 차별성 2</SuperiorityTwo>
     <SuperiorityThree> 차별성 3</SuperiorityThree>

@@ -3,9 +3,69 @@ import styled from "styled-components";
 
 const SuperiorityOne = styled.div`
   width: 100vw;
-  height: 700px;
+  height: 1000px;
   margin: 0 auto;
-  background-color: #7937be;
+  @media only screen and (max-width: 768px) {
+    height: 1200px;
+  }
+  /* background-color: #7937be; */
+`;
+const Title = styled.div`
+  margin: 0 auto;
+  margin: 20px;
+  text-align: center;
+  font-size: 50px;
+  @media only screen and (max-width: 768px) {
+    font-size: 22px;
+  }
+`;
+const Text = styled.div`
+  margin: 0 auto;
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
 `;
 
-export default () => <SuperiorityOne>SuperiorityOne</SuperiorityOne>;
+const CardContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  &:nth-child(1) {
+    margin-top: 50px;
+  }
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`;
+const Card = styled.div`
+  width: 30vw;
+  height: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #bdc3c7;
+  border-radius: 10px;
+
+  @media only screen and (max-width: 768px) {
+    width: 70vw;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+`;
+
+export default () => (
+  <SuperiorityOne>
+    <Title>UCS(Unified Channel System)</Title>
+    <Text>통합 채널 시스템 전문가 집단</Text>
+    <Text>무엇을 해결 할까요?</Text>
+    <CardContainer>
+      <Card></Card>
+      <Card></Card>
+    </CardContainer>
+    <CardContainer>
+      <Card></Card>
+      <Card></Card>
+    </CardContainer>
+  </SuperiorityOne>
+);

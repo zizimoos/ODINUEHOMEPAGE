@@ -58,13 +58,16 @@ export default withRouter(({ location: { pathname } }) => (
   <Header>
     <List>
       <Item current={pathname === "/"}>
-        <SLink to="/">어다인</SLink>
-      </Item>
-      <Item current={pathname === "/company"}>
-        <SLink to="/company">회사소개</SLink>
+        <SLink to="/">odinue</SLink>
       </Item>
       <Item current={pathname === "/product"}>
-        <SLink to="/product">제품소개</SLink>
+        <SLink to="/product">product</SLink>
+      </Item>
+      <Item current={pathname === "/customer"}>
+        <SLink to="/customer">customer</SLink>
+      </Item>
+      <Item current={pathname === "/company"}>
+        <SLink to="/company">company</SLink>
       </Item>
     </List>
   </Header>
