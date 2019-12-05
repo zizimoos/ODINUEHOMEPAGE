@@ -52,6 +52,7 @@ const SLink = styled(Link)`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-transform: uppercase;
 `;
 
 export default withRouter(({ location: { pathname } }) => (
