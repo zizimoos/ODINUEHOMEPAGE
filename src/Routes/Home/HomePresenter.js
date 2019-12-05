@@ -8,12 +8,13 @@ const Container = styled.div`
   width: 100%;
   margin-top: 0px;
 `;
-const MonePic = styled.div`
-  width: 100vw;
-  height: 700px;
-  margin: 0 auto;
-  background-color: #b0a8a6;
-`;
+
+// const MonePic = styled.div`
+//   width: 100vw;
+//   height: 700px;
+//   margin: 0 auto;
+//   background-color: #b0a8a6;
+// `;
 
 const HomePresenter = () => (
   <Container>
