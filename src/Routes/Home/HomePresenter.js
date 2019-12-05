@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import SuperiorityOne from "../../Component/SuperiorityOne";
 import SuperiorityTwo from "../../Component/SuperiorityTwo";
-import SuperiorityThree from "../../Component/SuperiorityThree";
 
 const Container = styled.div`
   width: 100%;
@@ -20,7 +19,6 @@ const HomePresenter = () => (
   <Container>
     <SuperiorityOne> </SuperiorityOne>
     <SuperiorityTwo> 차별성 2</SuperiorityTwo>
-    <SuperiorityThree> 차별성 3</SuperiorityThree>
   </Container>
 );
 
