@@ -22,6 +22,12 @@ const BusinessPart = styled.div`
   top: 50px;
   left: 30vw;
   padding-top: 100px;
+  @media only screen and (max-width: 768px) {
+    width: 300px;
+    height: 300px;
+    left: 8vw;
+    padding-top: 50px;
+  }
 `;
 
 const SmsLmsMMSFaxEmail = styled.div`
@@ -30,7 +36,12 @@ const SmsLmsMMSFaxEmail = styled.div`
   background: gray;
   border-radius: 50%;
   margin: auto;
-  padding-top: 10px;
+  padding-top: 50px;
+  @media only screen and (max-width: 768px) {
+    width: 200px;
+    height: 200px;
+    padding-top: 25px;
+  }
 `;
 
 const MoneCoreCircleFunction = styled.div`
@@ -39,6 +50,12 @@ const MoneCoreCircleFunction = styled.div`
   background: peru;
   border-radius: 50%;
   margin: auto;
+  padding-top: 75px;
+  @media only screen and (max-width: 768px) {
+    width: 150px;
+    height: 150px;
+    padding-top: 37.5px;
+  }
 `;
 const MoneCoreCircle = styled.div`
   width: 150px;
@@ -46,11 +63,21 @@ const MoneCoreCircle = styled.div`
   background: red;
   border-radius: 50%;
   margin: auto;
+  padding-top: 60px;
+  text-align: center;
+  @media only screen and (max-width: 768px) {
+    width: 75px;
+    height: 75px;
+    padding-top: 30px;
+  }
 `;
 
 const MoneCoreTitle = styled.div`
   color: white;
   font-size: 30px;
+  @media only screen and (max-width: 768px) {
+    font-size: 15px;
+  }
 `;
 const ProductPresenter = () => (
   <Container>
