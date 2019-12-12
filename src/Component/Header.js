@@ -7,7 +7,7 @@ const Header = styled.header`
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 50px;
   display: flex;
   justify-content: flex-end;
@@ -17,8 +17,7 @@ const Header = styled.header`
   z-index: 10;
   box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
   @media only screen and (max-width: 768px) {
-    width: 100%;
-
+    width: 100vw;
     align-items: center;
   }
 `;
@@ -29,7 +28,7 @@ const List = styled.ul`
   margin-right: 100px;
   @media only screen and (max-width: 768px) {
     width: 100%;
-    margin-right: 10px;
+    margin-right: 0px;
     justify-content: space-between;
   }
 `;
