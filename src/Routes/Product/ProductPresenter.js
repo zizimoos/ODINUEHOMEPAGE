@@ -749,8 +749,8 @@ const ProductPresenter = () => (
     <ProductDiv>
       <MoneBrief1>모바일 메세징 솔루션 M1은</MoneBrief1>
       <MoneBrief11>
-        2009년 금융권 차세대에 처음 도입된 후, 모바일 메세지의 통합.분배 및 제어
-        분야에서 가장 지배적인 솔루션으로 자리잡고 있습니다.
+        2009년 금융권 차세대에 처음 도입된 후, 모바일 메세지의 통합 • 분배 •
+        제어 분야에서 가장 지배적인 솔루션으로 자리잡고 있습니다.
       </MoneBrief11>
       <MoneBrief2>
         우리는 UCS(Unified Channel System)전문가로 더욱더 고품질 서비스를
