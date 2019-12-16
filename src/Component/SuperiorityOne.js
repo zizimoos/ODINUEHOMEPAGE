@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const SuperiorityOne = styled.div`
   width: 100vw;
-  height: 1000px;
+  height: 1200px;
   margin: 0 auto;
   @media only screen and (max-width: 768px) {
     height: 1200px;
@@ -27,10 +27,30 @@ const SubTitle = styled.div`
   text-align: center;
   font-size: 30px;
 `;
+const MotoContainer = styled.div`
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
+const MotoCurlBreak = styled.div`
+  font-size: 140px;
+  color: #81cfe0;
+`;
+const MotoTextContainer = styled.div`
+  margin-top: 20px;
+`;
+const Moto = styled.div`
+  /* margin: 0 auto;
+  margin-top: 50px;
+   */
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+`;
 const Text = styled.div`
   margin: 0 auto;
-
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 50px;
   text-align: center;
   font-size: 30px;
@@ -72,6 +92,15 @@ export default () => (
   <SuperiorityOne>
     <Title>UCS(Unified Channel System)</Title>
     <SubTitle>통합 채널 시스템 전문가 집단</SubTitle>
+    <MotoContainer>
+      <MotoCurlBreak>[ </MotoCurlBreak>
+      <MotoTextContainer>
+        <Moto> 匠人精神 장인정신</Moto>
+        <Moto> 技術革新 기술혁신</Moto>
+      </MotoTextContainer>
+      <MotoCurlBreak>] </MotoCurlBreak>
+    </MotoContainer>
+
     <Text>우리는 무엇을 해결 할까요?</Text>
     <CardContainer>
       <Card>K 고객사 토스 연동</Card>
