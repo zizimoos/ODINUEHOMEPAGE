@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const BACK_COLOR = "#141414";
+// const BACK_COLOR = "#141414";
 
 const Container = styled.div`
   width: 100vw;
@@ -12,7 +12,7 @@ const Container = styled.div`
 `;
 const ProductDiv = styled.div`
   width: 100vw;
-  height: 1000px;
+  height: 1200px;
   margin: 0 auto;
   margin-top: 100px;
   margin-left: 0px;
@@ -25,10 +25,29 @@ const ProductDiv = styled.div`
 `;
 const MoneBrief1 = styled.div`
   font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
   color: #81cfe0;
   margin: 0 auto;
-  padding: 10px;
-  text-align: center;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: left;
+  margin-bottom: 30px;
+  @media only screen and (max-width: 768px) {
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+`;
+const MoneBrief11 = styled.div`
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+  color: #81cfe0;
+  margin: 0 auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: left;
   margin-bottom: 30px;
   @media only screen and (max-width: 768px) {
     padding: 20px;
@@ -37,11 +56,16 @@ const MoneBrief1 = styled.div`
   }
 `;
 const MoneBrief2 = styled.div`
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 800;
   color: #81cfe0;
+  line-height: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: left;
   margin: 0 auto;
-  text-align: center;
-  margin-bottom: 60px;
+
+  margin-bottom: 200px;
   @media only screen and (max-width: 768px) {
     padding: 20px;
     font-size: 16px;
@@ -723,10 +747,15 @@ const Push = styled.div`
 const ProductPresenter = () => (
   <Container>
     <ProductDiv>
-      <MoneBrief1>
-        M1은 고객사 내부의 메시징 센터(서버) 구축용 기반 소프트웨어입니다.
-      </MoneBrief1>
-      <MoneBrief2>M1은 이중화(다중화) 분배 소프트웨어입니다.</MoneBrief2>
+      <MoneBrief1>모바일 메세징 솔루션 M1은</MoneBrief1>
+      <MoneBrief11>
+        2009년 금융권 차세대에 처음 도입된 후, 모바일 메세지의 통합.분배 및 제어
+        분야에서 가장 지배적인 솔루션으로 자리잡고 있습니다.
+      </MoneBrief11>
+      <MoneBrief2>
+        우리는 UCS(Unified Channel System)전문가로 더욱더 고품질 서비스를
+        제공하겠습니다.
+      </MoneBrief2>
       <BusinessPart>
         <Pointer1></Pointer1>
         <Pointer2></Pointer2>

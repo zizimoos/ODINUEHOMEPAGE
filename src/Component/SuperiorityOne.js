@@ -13,17 +13,27 @@ const SuperiorityOne = styled.div`
 const Title = styled.div`
   margin: 0 auto;
   margin: 20px;
+  margin-top: 50px;
   text-align: center;
   font-size: 50px;
   @media only screen and (max-width: 768px) {
     font-size: 22px;
   }
 `;
+const SubTitle = styled.div`
+  margin: 0 auto;
+  margin: 10px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-size: 30px;
+`;
 const Text = styled.div`
   margin: 0 auto;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
   text-align: center;
-  margin: 20px;
-  font-size: 20px;
+  font-size: 30px;
 `;
 
 const CardContainer = styled.div`
@@ -42,8 +52,12 @@ const CardContainer = styled.div`
 const Card = styled.div`
   width: 30vw;
   height: 300px;
+  font-size: 20px;
+  font-weight: 800;
   margin-right: 20px;
   margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
   background-color: #bdc3c7;
   border-radius: 10px;
 
@@ -57,11 +71,11 @@ const Card = styled.div`
 export default () => (
   <SuperiorityOne>
     <Title>UCS(Unified Channel System)</Title>
-    <Text>통합 채널 시스템 전문가 집단</Text>
-    <Text>무엇을 해결 할까요?</Text>
+    <SubTitle>통합 채널 시스템 전문가 집단</SubTitle>
+    <Text>우리는 무엇을 해결 할까요?</Text>
     <CardContainer>
-      <Card></Card>
-      <Card></Card>
+      <Card>K 고객사 토스 연동</Card>
+      <Card>B 고객사 SMS 순번 오류 해결</Card>
     </CardContainer>
     <CardContainer>
       <Card></Card>
