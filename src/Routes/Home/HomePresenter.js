@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import SuperiorityOne from "../../Component/SuperiorityOne";
+// import SuperiorityOne from "../../Component/SuperiorityOne";
 import SuperiorityTwo from "../../Component/SuperiorityTwo";
+import HomeFirst from "../../Component/HomeFirst";
 
 const Container = styled.div`
   width: 100%;
@@ -17,7 +18,8 @@ const Container = styled.div`
 
 const HomePresenter = () => (
   <Container>
-    <SuperiorityOne> </SuperiorityOne>
+    <HomeFirst></HomeFirst>
+    {/* <SuperiorityOne> </SuperiorityOne> */}
     <SuperiorityTwo> 차별성 2</SuperiorityTwo>
   </Container>
 );
