@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-// import SuperiorityOne from "../../Component/SuperiorityOne";
 import SuperiorityTwo from "../../Component/SuperiorityTwo";
 import HomeFirst from "../../Component/HomeFirst";
 
@@ -16,10 +15,23 @@ const Container = styled.div`
 //   background-color: #b0a8a6;
 // `;
 
-const HomePresenter = () => (
+const HomePresenter = ({
+  months,
+  days,
+  minutes,
+  hours,
+  seconds,
+  ButtsNumber
+}) => (
   <Container>
-    <HomeFirst></HomeFirst>
-    {/* <SuperiorityOne> </SuperiorityOne> */}
+    <HomeFirst
+      months={months}
+      days={days}
+      minutes={minutes}
+      hours={hours}
+      seconds={seconds}
+      ButtsNumber={ButtsNumber}
+    ></HomeFirst>
     <SuperiorityTwo> 차별성 2</SuperiorityTwo>
   </Container>
 );
