@@ -25,7 +25,7 @@ export default class extends React.Component {
   };
 
   thrownNumber = () => {
-    const TOTAL_NUMBER_OF_BUTTS = 4000000000000;
+    const TOTAL_NUMBER_OF_BUTTS = "4000000000000";
     const thrownButtsNumber = parseInt(TOTAL_NUMBER_OF_BUTTS / 31556926);
     this.setState({
       ButtsNumber: this.state.ButtsNumber + parseInt(thrownButtsNumber / 10)

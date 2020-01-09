@@ -21,6 +21,9 @@ const ButtsNumberDisplay = styled.div`
 
 export default ({ ButtsNumber }) => (
   <ButtsContainer>
-    <ButtsNumberDisplay>{`${ButtsNumber}`}</ButtsNumberDisplay>
+    <ButtsNumberDisplay>
+      {`${ButtsNumber}`.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}{" "}
+      cigarettButts
+    </ButtsNumberDisplay>
   </ButtsContainer>
 );
