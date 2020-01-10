@@ -13,22 +13,31 @@ export default class extends React.Component {
   };
   getTime = () => {
     const NINE_HOURS_MILLISECONDS = 32400000;
-    const xmasDay = new Date("2020-12-31:00:00:00+0900");
+    const xDay = new Date("2020-12-31:00:00:00+0900");
     const now = new Date();
-    const difference = new Date(xmasDay - now - NINE_HOURS_MILLISECONDS);
+    const difference = new Date(xDay - now - NINE_HOURS_MILLISECONDS);
     const months = difference.getMonth();
     const days = difference.getDate();
     const minutes = difference.getMinutes();
     const hours = difference.getHours();
     const seconds = difference.getSeconds();
+    //const elapsedTime = difference.getTime();
+    //console.log("elapsed time =", Math.floor(elapsedTime / 1000));
     this.setState({ months, days, minutes, hours, seconds });
   };
 
   thrownNumber = () => {
-    const TOTAL_NUMBER_OF_BUTTS = "4000000000000";
-    const thrownButtsNumber = parseInt(TOTAL_NUMBER_OF_BUTTS / 31556926);
+    const TOTAL_NUMBER_OF_BUTTS = "4000000000000"; // 연간 4조개
+    const thrownButtsNumber = parseInt(TOTAL_NUMBER_OF_BUTTS / 31556926000); //밀리초당 버려지는 갯수
+    const NINE_HOURS_MILLISECONDS = 32400000;
+    const now = new Date();
+    const initDay = new Date("2020-01-01:00:00:00+0900");
+    const initElapsedTime = new Date(now - initDay + NINE_HOURS_MILLISECONDS); // 1월 1일 부터 현재 시간 까지
+    const initButtsNumber = Math.floor(
+      initElapsedTime.getTime() * thrownButtsNumber //1월 1일부터 현재까지 지난 초단위 곱하기 초당 버려지는 갯수
+    );
     this.setState({
-      ButtsNumber: this.state.ButtsNumber + parseInt(thrownButtsNumber / 10)
+      ButtsNumber: initButtsNumber
     });
   };
 

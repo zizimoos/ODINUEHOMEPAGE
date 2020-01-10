@@ -40,7 +40,7 @@ export default ({ months, days, minutes, hours, seconds, ButtsNumber }) => (
       seconds={seconds}
     ></CounterContainer>
     <SecondTitle>
-      The number of cigarette butts now being thrown away
+      The number of cigarette butts "NOW" being thrown away
     </SecondTitle>
     <ButtsNumberDisplay ButtsNumber={ButtsNumber}></ButtsNumberDisplay>
   </HomeFirst>
