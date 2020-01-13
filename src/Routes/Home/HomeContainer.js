@@ -3,6 +3,7 @@ import HomePresenter from "./HomePresenter";
 
 export default class extends React.Component {
   state = {
+    backImage: null,
     months: null,
     days: null,
     minutes: null,

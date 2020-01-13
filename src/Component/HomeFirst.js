@@ -6,6 +6,7 @@ import ButtsNumberDisplay from "./ButtsCounter";
 const HomeFirst = styled.div`
   width: 100vw;
   height: 1000px;
+  z-index: 1;
 `;
 const Title = styled.div`
   /* font-family: "Orbitron", sans-serif; */
@@ -29,8 +30,26 @@ const SecondTitle = styled.div`
   font-weight: 600;
   color: black;
 `;
+const Backdrop = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* background-color: peru; */
+  background-image: url(${props => props.bgImage});
+  background-position: center center;
+  z-index: -1;
+  /* background-image: url("../../assets/backImage/cigarapWebBack_01.jpg");
+  background-position: center center;
+  background-size: cover;
+  filter: blur(3px);
+  opacity: 0.5;
+  z-index: -1; */
+`;
 export default ({ months, days, minutes, hours, seconds, ButtsNumber }) => (
   <HomeFirst>
+    <Backdrop bgImage={"../cigarapWebBack_01.jpg"}></Backdrop>
     <Title>Until the end of this year</Title>
     <CounterContainer
       months={months}

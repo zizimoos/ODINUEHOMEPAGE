@@ -4,6 +4,7 @@ import SuperiorityTwo from "../../Component/SuperiorityTwo";
 import HomeFirst from "../../Component/HomeFirst";
 
 const Container = styled.div`
+  position: relative;
   width: 100%;
   margin-top: 0px;
 `;
