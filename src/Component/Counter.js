@@ -5,6 +5,7 @@ const CounterContainer = styled.div`
   width: 100vw;
   height: 80px;
   margin: 0 auto;
+  z-index: 10;
 `;
 const ClockTitle = styled.div`
   /* font-family: "Orbitron", sans-serif; */

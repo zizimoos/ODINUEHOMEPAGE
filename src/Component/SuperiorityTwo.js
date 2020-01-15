@@ -5,7 +5,7 @@ const SuperiorityTwo = styled.div`
   width: 100w;
   height: 700px;
   margin: 0 auto;
-  background-color: #9a1116;
+  background-color: #22313f;
 `;
 
 export default () => <SuperiorityTwo>SuperiorityTwo</SuperiorityTwo>;

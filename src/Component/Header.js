@@ -15,7 +15,7 @@ const Header = styled.header`
   justify-content: flex-end;
   align-items: center;
   padding: 0px 10px;
-  background-color: rgba(10, 30, 40, 0.8);
+  background-color: #2574a9;
   z-index: 10;
   box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
   @media only screen and (max-width: 768px) {
@@ -38,6 +38,7 @@ const List = styled.ul`
 const Item = styled.li`
   width: 80px;
   height: 50px;
+  font-weight: 600;
   margin: 10px;
   text-align: center;
   border-bottom: 3px solid

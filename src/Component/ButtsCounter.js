@@ -17,14 +17,14 @@ const ButtsNumberDisplay = styled.div`
   /* font-family: "IBM Plex Mono", monospace; */
   font-size: 80px;
   font-weight: 600;
-  color: black;
+  /* color: black; */
+  color: #cf000f;
 `;
 
 export default ({ ButtsNumber }) => (
   <ButtsContainer>
     <ButtsNumberDisplay>
       {`${ButtsNumber}`.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}{" "}
-      cigaretteButts
     </ButtsNumberDisplay>
   </ButtsContainer>
 );

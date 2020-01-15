@@ -1,5 +1,6 @@
 import React from "react";
 import HomePresenter from "./HomePresenter";
+import bgImage from "../../assets/backImage/cigarapWebBack_02.jpg";
 
 export default class extends React.Component {
   state = {
@@ -10,7 +11,8 @@ export default class extends React.Component {
     hours: null,
     seconds: null,
     ButtsNumber: null,
-    error: null
+    error: null,
+    bgImage: bgImage
   };
   getTime = () => {
     const NINE_HOURS_MILLISECONDS = 32400000;
@@ -60,6 +62,7 @@ export default class extends React.Component {
       hours,
       seconds,
       ButtsNumber,
+      bgImage,
       error
     } = this.state;
 
@@ -72,6 +75,7 @@ export default class extends React.Component {
         seconds={seconds}
         ButtsNumber={ButtsNumber}
         error={error}
+        bgImage={bgImage}
       ></HomePresenter>
     );
   }

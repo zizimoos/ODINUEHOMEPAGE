@@ -22,7 +22,8 @@ const HomePresenter = ({
   minutes,
   hours,
   seconds,
-  ButtsNumber
+  ButtsNumber,
+  bgImage
 }) => (
   <Container>
     <HomeFirst
@@ -32,6 +33,7 @@ const HomePresenter = ({
       hours={hours}
       seconds={seconds}
       ButtsNumber={ButtsNumber}
+      bgImage={bgImage}
     ></HomeFirst>
     <SuperiorityTwo> 차별성 2</SuperiorityTwo>
   </Container>
