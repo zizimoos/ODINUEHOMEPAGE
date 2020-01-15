@@ -6,30 +6,43 @@ import ButtsNumberDisplay from "./ButtsCounter";
 const HomeFirst = styled.div`
   position: relative;
   width: 100vw;
-  height: 800px;
+  height: 700px;
   z-index: 1;
 `;
 const Title = styled.div`
   /* font-family: "Orbitron", sans-serif; */
   margin: 0 auto;
   margin: 20px;
-  margin-top: 50px;
+  margin-top: 30px;
   padding-top: 150px;
   text-align: center;
   font-family: "Changa", sans-serif;
   /* color: #2574a9; */
   color: black;
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 600;
 `;
 const SecondTitle = styled.div`
   /* font-family: "Orbitron", sans-serif; */
   margin: 0 auto;
   margin: 20px;
-  margin-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 40px;
   text-align: center;
   font-family: "Changa", sans-serif;
   font-size: 50px;
+  font-weight: 600;
+  color: #cf000f;
+  text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
+`;
+const ThirdTitle = styled.div`
+  /* font-family: "Orbitron", sans-serif; */
+  margin: 0 auto;
+  margin: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: "Changa", sans-serif;
+  font-size: 30px;
   font-weight: 600;
   color: #2574a9;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
@@ -44,8 +57,8 @@ const Backdrop = styled.div`
   background-size: cover;
   background-image: url(${props => props.bgImage});
   background-position: center center;
-  filter: blur(3px);
-  opacity: 1;
+  filter: blur(4px);
+  opacity: 0.7;
   z-index: -1;
   /* background-image: url("../../assets/backImage/cigarapWebBack_01.jpg");
   background-position: center center;
@@ -75,5 +88,11 @@ export default ({
     ></CounterContainer> */}
     <ButtsNumberDisplay ButtsNumber={ButtsNumber}></ButtsNumberDisplay>
     <SecondTitle>cigarettebutts are being thrown away</SecondTitle>
+    <ThirdTitle>
+      The speed at which cigarettebutts are discarded is 630 km/h.
+    </ThirdTitle>
+    <ThirdTitle>
+      The discarded cigarettebutts are circling the Earth 50 times.
+    </ThirdTitle>
   </HomeFirst>
 );
