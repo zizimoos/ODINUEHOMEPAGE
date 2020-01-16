@@ -15,7 +15,7 @@ const ButtsNumberDisplay = styled.div`
   text-align: center;
   font-family: "Changa", sans-serif;
   /* font-family: "IBM Plex Mono", monospace; */
-  font-size: 100px;
+  font-size: 120px;
   font-weight: 600;
   /* color: black; */
   color: #cf000f;

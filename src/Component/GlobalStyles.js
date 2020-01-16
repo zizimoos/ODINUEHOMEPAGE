@@ -8,7 +8,7 @@ a{
 }
 @import url('https://fonts.googleapis.com/css?family=Changa:400,500,600,700,800&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Orbitron:800&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo:400,700,800&display=swap&subset=korean');
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro:400,700|IBM+Plex+Mono:400,500,600,700&display=swap');
 *{
     box-sizing:border-box;

@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import SuperiorityTwo from "../../Component/SuperiorityTwo";
 import HomeFirst from "../../Component/HomeFirst";
+import HomeSecond from "../../Component/HomeSecond";
 
 const Container = styled.div`
   position: relative;
@@ -35,7 +35,7 @@ const HomePresenter = ({
       ButtsNumber={ButtsNumber}
       bgImage={bgImage}
     ></HomeFirst>
-    <SuperiorityTwo> 차별성 2</SuperiorityTwo>
+    <HomeSecond></HomeSecond>
   </Container>
 );
 

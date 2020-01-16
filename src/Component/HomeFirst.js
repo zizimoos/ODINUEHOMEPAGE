@@ -5,8 +5,11 @@ import ButtsNumberDisplay from "./ButtsCounter";
 
 const HomeFirst = styled.div`
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 100vw;
-  height: 700px;
+  height: 100vh;
   z-index: 1;
 `;
 const Title = styled.div`
@@ -14,7 +17,7 @@ const Title = styled.div`
   margin: 0 auto;
   margin: 20px;
   margin-top: 30px;
-  padding-top: 150px;
+  padding-top: 0px;
   text-align: center;
   font-family: "Changa", sans-serif;
   /* color: #2574a9; */
@@ -45,6 +48,7 @@ const ThirdTitle = styled.div`
   font-size: 30px;
   font-weight: 600;
   color: #2574a9;
+  color: #003755;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
 const Backdrop = styled.div`
