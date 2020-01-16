@@ -3,6 +3,8 @@ import styled from "styled-components";
 import interviewPic_01 from "../assets/homeImages/interviewPic_01.png";
 import interviewPic_02 from "../assets/homeImages/interviewPic_02.jpg";
 import interviewPic_03 from "../assets/homeImages/interviewPic_03.jpeg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFish, faCrow, faDog } from "@fortawesome/free-solid-svg-icons";
 
 const HomeSecond = styled.div`
   width: 100vw;
@@ -127,18 +129,21 @@ export default () => (
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_01}></ParagraphPhoto>
         <Paragraph>
-          {`The microplastic is already on our dinner table.`}
+          <FontAwesomeIcon icon={faFish} size={"2x"} />{" "}
+          {`  The microplastic is already on our dinner table.`}
         </Paragraph>
       </ParagraphContainer>
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_02}></ParagraphPhoto>
         <Paragraph>
-          {`Karen Mason who took this photos, said "If you smoke, please don't leave your butts behind"`}
+          <FontAwesomeIcon icon={faCrow} size={"2x"} />{" "}
+          {`Karen Mason who took this photos, said " If you smoke, please don't leave your butts behind "`}
         </Paragraph>
       </ParagraphContainer>
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_03}></ParagraphPhoto>
         <Paragraph>
+          <FontAwesomeIcon icon={faDog} size={"2x"} />{" "}
           {`Cigarette butts contain microplastics & chemicals  that can poison wildlife`}
         </Paragraph>
       </ParagraphContainer>

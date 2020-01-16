@@ -1,5 +1,21 @@
 import React from "react";
 import styled from "styled-components";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faInstagram,
+  faYoutube,
+  faFacebook
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faSmoking,
+  faGlobeAmericas,
+  faEnvelope,
+  faAddressCard,
+  faCoffee,
+  faFish,
+  faCrow,
+  faDog
+} from "@fortawesome/free-solid-svg-icons";
 
 const Footer = styled.div`
   width: 100vw;
@@ -32,8 +48,20 @@ const Title = styled.div`
 
 export default () => (
   <Footer>
-    <Title>Follow Us</Title>
-    <Title>Connect Us</Title>
+    <Title>
+      Follow Us
+      <FontAwesomeIcon icon={faYoutube} />
+      <FontAwesomeIcon icon={faFacebook} />
+      <FontAwesomeIcon icon={faInstagram} />
+      <FontAwesomeIcon icon={faCoffee} />
+    </Title>
+    <Title>
+      Connect Us
+      <FontAwesomeIcon icon={faSmoking} />
+      <FontAwesomeIcon icon={faGlobeAmericas} />
+      <FontAwesomeIcon icon={faEnvelope} />
+      <FontAwesomeIcon icon={faAddressCard} />
+    </Title>
     <Title>Address</Title>
     <Title>Address</Title>
   </Footer>
