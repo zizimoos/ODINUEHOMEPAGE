@@ -78,12 +78,21 @@ const ParagraphPhoto = styled.div`
   width: 250px;
   height: 250px; /* text-align: center; */
   margin-bottom: 20px;
-  background-color: peru;
   background-image: url(${props => props.bgImage});
   background-position: center center;
-  background-size: cover;
+  background-size: 140%;
   border-radius: 50%;
+  background-color: #336e7a;
   border: 2px solid whitesmoke;
+  &:hover {
+    background-size: 180%;
+    /* border: 6px solid whitesmoke; */
+    /* box-shadow: inset 0px 0px 10px 10px #336e7a; */
+    border: 4px solid #336e7a;
+
+    /* #336E7A */
+  }
+  transition: background-size 1s ease-in-out;
   /* border: 2px solid #2574a9; */
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
@@ -118,7 +127,7 @@ const SloganBig = styled.div`
 
 export default () => (
   <HomeSecond>
-    <Title>Who dumps the butt on the street these days?</Title>
+    <Title>Whoever dumps the butts on the street?</Title>
     <Paragraph>
       {`Most of the cigarettebutts dumped on the street run through sewers and streams into the sea.`}
     </Paragraph>
@@ -129,28 +138,28 @@ export default () => (
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_01}></ParagraphPhoto>
         <Paragraph>
-          <FontAwesomeIcon icon={faFish} size={"2x"} />{" "}
+          <FontAwesomeIcon icon={faFish} size={"1x"} />{" "}
           {`  The microplastic is already on our dinner table.`}
         </Paragraph>
       </ParagraphContainer>
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_02}></ParagraphPhoto>
         <Paragraph>
-          <FontAwesomeIcon icon={faCrow} size={"2x"} />{" "}
-          {`Karen Mason who took this photos, said " If you smoke, please don't leave your butts behind "`}
+          <FontAwesomeIcon icon={faCrow} size={"1x"} />{" "}
+          {`Karen Mason who took this photo, said " If you smoke, please don't leave your butts behind "`}
         </Paragraph>
       </ParagraphContainer>
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_03}></ParagraphPhoto>
         <Paragraph>
-          <FontAwesomeIcon icon={faDog} size={"2x"} />{" "}
+          <FontAwesomeIcon icon={faDog} size={"1x"} />{" "}
           {`Cigarette butts contain microplastics & chemicals  that can poison wildlife`}
         </Paragraph>
       </ParagraphContainer>
     </InterviewSection>
 
-    <Slogan>"Just not throwing it away </Slogan>
+    <Slogan>Just not throwing it away </Slogan>
     <Slogan>can be a small but</Slogan>
-    <SloganBig>Great start."</SloganBig>
+    <SloganBig>"Great start."</SloganBig>
   </HomeSecond>
 );
