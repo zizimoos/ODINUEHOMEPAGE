@@ -37,7 +37,7 @@ const InterviewSection = styled.div`
   padding-top: 80px;
   padding-right: 300px;
   padding-left: 300px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   justify-content: space-around;
 `;
 const ParagraphContainer = styled.div`
@@ -45,7 +45,7 @@ const ParagraphContainer = styled.div`
   margin: 20px;
   margin-top: 0px;
   margin-bottom: 40px;
-  width: 20vw;
+  width: vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,14 +57,27 @@ const ParagraphContainer = styled.div`
 
 const Paragraph = styled.div`
   /* font-family: "Orbitron", sans-serif; */
-  margin: 20px;
   margin-top: 0px;
+  padding-left: 26px;
+  padding-right: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #95a5a6;
+  text-align: center;
+  text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
+`;
+const ParagraphWriter = styled.div`
+  /* font-family: "Orbitron", sans-serif; */
+  margin: 10px;
+  margin-top: 5px;
   /* width: 50vw; */
   /* text-align: center; */
   /* font-family: "Nanum Myeongjo", serif; */
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 400;
   /* color: #2574a9; */
   color: #003755;
@@ -108,7 +121,7 @@ const Slogan = styled.div`
   font-weight: 600;
   /* color: #2574a9;
   color: #cf000f; */
-  color: #003755;
+  color: #2c3f51;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
 const SloganBig = styled.div`
@@ -139,21 +152,22 @@ export default () => (
         <ParagraphPhoto bgImage={interviewPic_01}></ParagraphPhoto>
         <Paragraph>
           <FontAwesomeIcon icon={faFish} size={"1x"} />{" "}
-          {`  The microplastic is already on our dinner table.`}
+          {`The microplastic is already on our dinner table.`}
         </Paragraph>
       </ParagraphContainer>
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_02}></ParagraphPhoto>
         <Paragraph>
           <FontAwesomeIcon icon={faCrow} size={"1x"} />{" "}
-          {`Karen Mason who took this photo, said " If you smoke, please don't leave your butts behind "`}
+          {`"If you smoke, please don't leave your butts behind "`}
         </Paragraph>
+        <ParagraphWriter>{`Karen Mason who took this photo said`}</ParagraphWriter>
       </ParagraphContainer>
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_03}></ParagraphPhoto>
         <Paragraph>
           <FontAwesomeIcon icon={faDog} size={"1x"} />{" "}
-          {`Cigarette butts contain microplastics & chemicals  that can poison wildlife`}
+          {`Cigarettebutts contain microplastics & chemicals  that can poison wildlife`}
         </Paragraph>
       </ParagraphContainer>
     </InterviewSection>
