@@ -19,7 +19,7 @@ const Footer = styled.div`
   height: 250px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
   font-family: "Changa", sans-serif;
   padding-left: 100px;
@@ -27,7 +27,10 @@ const Footer = styled.div`
   background-color: #2c3f51;
   color: #bc6c6b;
 `;
-const FooterGrid = styled.div``;
+const FooterGrid = styled.div`
+  width: 250px;
+  margin: 0 auto;
+`;
 const Title = styled.div`
   /* font-family: "Orbitron", sans-serif; */
   margin: 0 auto;
