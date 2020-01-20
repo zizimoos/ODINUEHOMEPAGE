@@ -22,8 +22,8 @@ const Footer = styled.div`
   grid-template-columns: auto auto auto auto;
   grid-gap: 20px;
   font-family: "Changa", sans-serif;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
   background-color: #2c3f51;
   color: #bc6c6b;
 `;

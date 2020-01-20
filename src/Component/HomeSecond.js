@@ -161,7 +161,7 @@ export default () => (
           <FontAwesomeIcon icon={faCrow} size={"1x"} />{" "}
           {`"If you smoke, please don't leave your butts behind "`}
         </Paragraph>
-        <ParagraphWriter>{`Karen Mason who took this photo said`}</ParagraphWriter>
+        <ParagraphWriter>{`- Karen Mason who took this photo said`}</ParagraphWriter>
       </ParagraphContainer>
       <ParagraphContainer>
         <ParagraphPhoto bgImage={interviewPic_03}></ParagraphPhoto>
