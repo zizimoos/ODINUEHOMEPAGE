@@ -16,7 +16,7 @@ const Header = styled.header`
   align-items: center;
   padding: 0px 10px;
   background-color: #2574a9;
-  z-index: 10;
+  z-index: 100;
   box-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
   @media only screen and (max-width: 768px) {
     width: 100vw;
