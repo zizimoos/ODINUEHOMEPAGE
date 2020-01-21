@@ -2,10 +2,20 @@ import React from "react";
 import styled from "styled-components";
 
 import assembly from "../../assets/campaign/assembly.jpg";
+import assemblyFace from "../../assets/campaign/assemblyFace.png";
+
+import bexco from "../../assets/campaign/bexco.jpeg";
 import fishing from "../../assets/campaign/fishing_01.jpg";
-import greenPluged from "../../assets/campaign/greenPluged.jpg";
+
+import greenPluged from "../../assets/campaign/greenPluged_01.jpg";
+import greenFace from "../../assets/campaign/greenPlugedFace.png";
+
 import jejudo from "../../assets/campaign/jejudo.jpg";
+import jejudoFace from "../../assets/campaign/jejudoFace.png";
+
 import allStar from "../../assets/campaign/KBOallstar.jpg";
+import allStarFace from "../../assets/campaign/KBOallstarFace.png";
+
 import samsungA from "../../assets/campaign/samsungAss.png";
 
 const Container = styled.div`
@@ -22,7 +32,7 @@ const Title = styled.div`
   font-family: "Changa", sans-serif;
   font-size: 50px;
   font-weight: 600;
-  color: black;
+  color: #7a7f78;
 `;
 
 const CompanyDiv = styled.div`
@@ -105,7 +115,7 @@ const CompanyPresenterPresenter = () => (
       <CampaignContainer>
         <CampaignItem>
           <CampaignPicFishing bgImage={assembly}></CampaignPicFishing>
-          <CampaignPeople bgImage={assembly}></CampaignPeople>
+          <CampaignPeople bgImage={assemblyFace}></CampaignPeople>
 
           <CampainText>
             <CampaignTitle>2월, 국회토론회</CampaignTitle>
@@ -115,7 +125,7 @@ const CompanyPresenterPresenter = () => (
           </CampainText>
         </CampaignItem>
         <CampaignItem>
-          <CampaignPicFishing bgImage={fishing}></CampaignPicFishing>
+          <CampaignPicFishing bgImage={bexco}></CampaignPicFishing>
           <CampaignPeople bgImage={fishing}></CampaignPeople>
           <CampainText>
             <CampaignTitle>3월, 2019 국제 낚시 박람회 (BEXCO)</CampaignTitle>
@@ -128,7 +138,7 @@ const CompanyPresenterPresenter = () => (
       <CampaignContainer>
         <CampaignItem>
           <CampaignPicFishing bgImage={greenPluged}></CampaignPicFishing>
-          <CampaignPeople bgImage={greenPluged}></CampaignPeople>
+          <CampaignPeople bgImage={greenFace}></CampaignPeople>
           <CampainText>
             <CampaignTitle>5월, GreedPluged Seoul</CampaignTitle>
             시가랩은 젊은이들의 대표 봄철 환경 페스티벌인 ‘그린플러그드
@@ -138,7 +148,7 @@ const CompanyPresenterPresenter = () => (
         </CampaignItem>
         <CampaignItem>
           <CampaignPicFishing bgImage={allStar}></CampaignPicFishing>
-          <CampaignPeople bgImage={allStar}></CampaignPeople>
+          <CampaignPeople bgImage={allStarFace}></CampaignPeople>
           <CampainText>
             <CampaignTitle>7월, 2019 프로야구 올스타전(창원)</CampaignTitle>
             프로야구 올스타전이 열리는 창원NC파크를 찾아가 20대 부터 70대까지
@@ -150,7 +160,7 @@ const CompanyPresenterPresenter = () => (
       <CampaignContainer>
         <CampaignItem>
           <CampaignPicFishing bgImage={jejudo}></CampaignPicFishing>
-          <CampaignPeople bgImage={jejudo}></CampaignPeople>
+          <CampaignPeople bgImage={jejudoFace}></CampaignPeople>
           <CampainText>
             <CampaignTitle>8월, 제주해변 캠페인</CampaignTitle>
             피서철인 8월에 제주도 7개 해수욕장에서 순차적으로 실시된 ‘시가랩

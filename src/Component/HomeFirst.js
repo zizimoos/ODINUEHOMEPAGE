@@ -96,10 +96,10 @@ export default ({
     <ButtsNumberDisplay ButtsNumber={ButtsNumber}></ButtsNumberDisplay>
     <SecondTitle>cigarettebutts are being thrown away</SecondTitle>
     <ThirdTitle>
-      The speed at which cigarettebutts are discarded is 635 km/h.
+      {/* The speed at which cigarettebutts are discarded is 635 km/h. */}
     </ThirdTitle>
     <ThirdTitle>
-      The discarded cigarettebutts are circling the Earth 12 times in a day.
+      {/* The discarded cigarettebutts are circling the Earth 12 times in a day. */}
     </ThirdTitle>
   </HomeFirst>
 );
