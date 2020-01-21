@@ -31,7 +31,7 @@ const YoutubeProduct = ({ video }) => (
       video={"Y37bzku1zdU"}
       width={854}
       height={480}
-      autoplay
+      // autoplay
       version={3}
       loop={1}
     ></YouTube>

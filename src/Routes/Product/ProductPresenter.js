@@ -1,14 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 import YoutubeProduct from "../../Component/YoutubeProduct";
+import WhatIsCigarap from "../../Component/ WhatIsCigarap";
+import HowToUse from "../../Component/HowToUse";
 
 // const BACK_COLOR = "#141414";
 
 const Container = styled.div`
   width: 100vw;
-  height: 1000px;
+  height: 2300px;
   margin-top: 0px;
-  background-color: black;
+  background-color: #336e7b;
   @media only screen and (max-width: 768px) {
     width: 100vw;
   }
@@ -31,6 +33,8 @@ const ProductPresenter = () => (
   <Container>
     <ProductDiv>
       <YoutubeProduct></YoutubeProduct>
+      <WhatIsCigarap></WhatIsCigarap>
+      <HowToUse></HowToUse>
     </ProductDiv>
   </Container>
 );
