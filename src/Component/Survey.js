@@ -18,19 +18,19 @@ const Svg = styled.svg`
   margin: 10px auto;
   max-width: 80%;
   max-height: 250px;
+  path {
+    stroke: #4cc790;
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: ${Progress} 1s ease-out forwards;
+  }
 `;
 
-const Path = styled.path`
-  stroke: #4cc790;
-  fill: none;
-  stroke-width: 2.8;
-  stroke-linecap: round;
-  ${props => props.active && `animation: ${Progress} 1s ease-out forwards;`}
-`;
 export default () => (
   <Container>
     <Svg viewBox="0 0 36 36" className="circular-chart">
-      <Path
+      <path
         className="circle"
         stroke-dasharray="80, 100"
         d="M18 2.0845
