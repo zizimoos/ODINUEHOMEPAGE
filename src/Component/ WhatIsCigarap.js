@@ -17,12 +17,12 @@ const Container = styled.div`
 `;
 
 const DescriptionTitle = styled.div`
-  font-size: 25px;
+  font-size: 21px;
   margin: 20px;
 `;
 
 const Description = styled.div`
-  width: 20vw;
+  width: 25vw;
   padding: 20px;
   line-height: 20px;
   text-align: justify;
