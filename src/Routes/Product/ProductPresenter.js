@@ -3,12 +3,13 @@ import styled from "styled-components";
 import YoutubeProduct from "../../Component/YoutubeProduct";
 import WhatIsCigarap from "../../Component/ WhatIsCigarap";
 import HowToUse from "../../Component/HowToUse";
+import Survey from "../../Component/Survey";
 
 // const BACK_COLOR = "#141414";
 
 const Container = styled.div`
   width: 100vw;
-  height: 2300px;
+  height: 3300px;
   margin-top: 0px;
   background-color: #336e7b;
   @media only screen and (max-width: 768px) {
@@ -35,6 +36,7 @@ const ProductPresenter = () => (
       <YoutubeProduct></YoutubeProduct>
       <WhatIsCigarap></WhatIsCigarap>
       <HowToUse></HowToUse>
+      <Survey></Survey>
     </ProductDiv>
   </Container>
 );
