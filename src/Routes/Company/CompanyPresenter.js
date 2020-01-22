@@ -103,6 +103,7 @@ const CampainText = styled.div`
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
   text-align: justify;
+  line-height: 17px;
   color: gray;
   background-color: white;
   z-index: 0;
@@ -140,7 +141,7 @@ const CompanyPresenterPresenter = () => (
           <CampaignPicFishing bgImage={greenPluged}></CampaignPicFishing>
           <CampaignPeople bgImage={greenFace}></CampaignPeople>
           <CampainText>
-            <CampaignTitle>5월, GreedPluged Seoul</CampaignTitle>
+            <CampaignTitle>5월, GreenPluged Seoul</CampaignTitle>
             시가랩은 젊은이들의 대표 봄철 환경 페스티벌인 ‘그린플러그드
             서울(2019)”에 참가해서 20-30세대들로 부터 담배꽁초 문제 해결을 위한
             실천적 대안으로 큰 호응을 받았다.

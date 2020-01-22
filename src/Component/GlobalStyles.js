@@ -21,6 +21,7 @@ body{
     color: white;
     padding-top:0px;
     width: 100vw;
+    
     @media (min-width: 320px) and (max-widith: 480) {
     width: 100vw;
   }

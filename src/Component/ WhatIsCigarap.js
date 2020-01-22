@@ -16,18 +16,20 @@ const Container = styled.div`
   align-items: center;
 `;
 
+const DescriptionTitle = styled.div`
+  font-size: 25px;
+  margin: 20px;
+`;
+
 const Description = styled.div`
   width: 20vw;
   padding: 20px;
+  line-height: 20px;
   text-align: justify;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   color: gray;
-`;
-const DescriptionTitle = styled.div`
-  font-size: 25px;
-  margin: 10px;
 `;
 
 const TitlePic = styled.div`

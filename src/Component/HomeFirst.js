@@ -65,7 +65,7 @@ const Backdrop = styled.div`
   background-image: url(${props => props.bgImage});
   background-position: center center;
   filter: blur(4px);
-  opacity: 0.7;
+  opacity: 1;
   z-index: -1;
   /* background-image: url("../../assets/backImage/cigarapWebBack_01.jpg");
   background-position: center center;
