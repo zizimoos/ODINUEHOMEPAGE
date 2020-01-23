@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import YoutubeProduct from "../../Component/YoutubeProduct";
-import WhatIsCigarap from "../../Component/ WhatIsCigarap";
+import WhatIsCigarap from "../../Component/WhatIsCigarap";
 import HowToUse from "../../Component/HowToUse";
 import Survey from "../../Component/Survey";
 

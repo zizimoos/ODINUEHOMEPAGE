@@ -51,7 +51,7 @@ const Description = styled.div`
   text-align: justify;
   color: black;
   position: absolute;
-  bottom: 0px;
+  top: 0px;
 `;
 
 const Progress = keyframes`
@@ -65,7 +65,7 @@ const Svg = styled.svg`
   top: 0;
   left: 36px;
   margin: 10px auto;
-  margin-top: 30px;
+  margin-top: 120px;
   max-width: 80%;
   max-height: 250px;
   path {
@@ -73,7 +73,7 @@ const Svg = styled.svg`
     fill: none;
     stroke-width: 2.8;
     stroke-linecap: round;
-    animation: ${Progress} 1s ease-out forwards;
+    animation: ${Progress} 3s ease-out forwards;
   }
   z-index: 10;
   text {
@@ -90,7 +90,7 @@ const SvgBg = styled.svg`
   top: 0;
   left: 36px;
   margin: 10px auto;
-  margin-top: 30px;
+  margin-top: 120px;
   max-width: 80%;
   max-height: 250px;
   path {
@@ -100,18 +100,6 @@ const SvgBg = styled.svg`
     stroke-linecap: round;
     animation: ${Progress} 1s ease-out forwards;
   }
-`;
-
-const Percentage = styled.span`
-  position: absolute;
-  top: 30%;
-  left: 42%;
-  fill: none;
-  font-family: sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  color: #95a5a6;
-  text-anchor: middle;
 `;
 
 export default () => (
