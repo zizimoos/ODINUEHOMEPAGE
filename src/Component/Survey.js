@@ -76,6 +76,12 @@ const Svg = styled.svg`
     animation: ${Progress} 1s ease-out forwards;
   }
   z-index: 10;
+  text {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
 `;
 
 const SvgBg = styled.svg`
@@ -118,7 +124,7 @@ export default () => (
           담배꽁초 수거함이 없어 담배꽁초를 주머니 등에 보관해 보신 경험이
           있습니까? (단일선택, 701)
         </Description>
-        <Percentage>64%</Percentage>
+
         <Svg viewBox="0 0 36 36" className="circular-chart">
           <path
             className="circle"
@@ -127,6 +133,9 @@ export default () => (
     a 15.9155 15.9155 0 0 1 0 31.831
     a 15.9155 15.9155 0 0 1 0 -31.831"
           />
+          <text x="18" y="20.35">
+            64%
+          </text>
         </Svg>
         <SvgBg viewBox="0 0 36 36" className="circular-chart">
           <path
@@ -143,7 +152,7 @@ export default () => (
           담배필터 성분이 플라스틱이고 해양 미세플라스틱의 가장 많은 부분을
           차지하고 있다는 사실을 알고 계십니까?(단일선택, 701)
         </Description>
-        <Percentage>37%</Percentage>
+
         <Svg viewBox="0 0 36 36" className="circular-chart">
           <path
             className="circle"
@@ -152,6 +161,9 @@ export default () => (
     a 15.9155 15.9155 0 0 1 0 31.831
     a 15.9155 15.9155 0 0 1 0 -31.831"
           />
+          <text x="18" y="20.35">
+            37%
+          </text>
         </Svg>
         <SvgBg viewBox="0 0 36 36" className="circular-chart">
           <path
@@ -169,7 +181,7 @@ export default () => (
           판매점에서 반환한 소비자에게 인센티브를 주는 캠페인을 진행할 경우
           참여하실 생각이 있으십니까? (단일선택, 701)
         </Description>
-        <Percentage>47%</Percentage>
+
         <Svg viewBox="0 0 36 36" className="circular-chart">
           <path
             className="circle"
@@ -178,6 +190,9 @@ export default () => (
     a 15.9155 15.9155 0 0 1 0 31.831
     a 15.9155 15.9155 0 0 1 0 -31.831"
           />
+          <text x="18" y="20.35">
+            47%
+          </text>
         </Svg>
         <SvgBg viewBox="0 0 36 36" className="circular-chart">
           <path
