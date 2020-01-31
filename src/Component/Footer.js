@@ -185,7 +185,7 @@ export default () => (
     </FooterGrid>
     <EndDescription>
       <Title></Title>
-      copyright 2010
+      copyright 2020
     </EndDescription>
   </Footer>
 );
