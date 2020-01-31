@@ -69,7 +69,8 @@ const Svg = styled.svg`
   max-width: 80%;
   max-height: 250px;
   path {
-    stroke: #4cc790;
+    /* stroke: #4cc790; */
+    stroke: #3498db;
     fill: none;
     stroke-width: 2.8;
     stroke-linecap: round;
