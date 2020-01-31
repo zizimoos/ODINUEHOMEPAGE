@@ -78,9 +78,10 @@ const Svg = styled.svg`
   }
   z-index: 10;
   text {
-    fill: #666;
+    fill: #3498db;
     font-family: sans-serif;
     font-size: 0.5em;
+    font-weight: 600;
     text-anchor: middle;
   }
 `;
