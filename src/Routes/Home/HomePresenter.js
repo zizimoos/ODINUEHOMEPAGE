@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import HomeFirst from "../../Component/HomeFirst";
 import HomeSecond from "../../Component/HomeSecond";
+import NotThrowing from "../../Component/NotThrowing";
 
 const Container = styled.div`
   position: relative;
@@ -36,6 +37,7 @@ const HomePresenter = ({
       bgImage={bgImage}
     ></HomeFirst>
     <HomeSecond></HomeSecond>
+    <NotThrowing></NotThrowing>
   </Container>
 );
 

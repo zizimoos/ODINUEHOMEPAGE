@@ -4,6 +4,7 @@ import YouTube from "@u-wave/react-youtube";
 
 const Container = styled.div`
   width: 100vw;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,7 +15,9 @@ const Title = styled.div`
   /* font-family: "Orbitron", sans-serif; */
 
   margin: 20px;
-  margin-top: 0px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+
   /* margin-bottom: 100px; */
   padding-top: 50px;
   text-align: center;

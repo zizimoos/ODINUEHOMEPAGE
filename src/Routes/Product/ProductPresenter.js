@@ -9,7 +9,7 @@ import Survey from "../../Component/Survey";
 
 const Container = styled.div`
   width: 100vw;
-  height: 3090px;
+  height: 2970px;
   margin-top: 0px;
   background-color: #336e7b;
   @media only screen and (max-width: 768px) {
@@ -18,7 +18,7 @@ const Container = styled.div`
 `;
 const ProductDiv = styled.div`
   width: 100vw;
-  height: 1200px;
+  height: 750px;
   margin: 0 auto;
   margin-top: 50px;
   margin-left: 0px;

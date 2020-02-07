@@ -134,7 +134,7 @@ export default () => (
       </FooterItem>
       <FooterItem>
         <FontAwesomeIcon icon={faAddressCard} size={"2x"} color={"#95a5a6"} />
-        <SubTitle>02 876 6825</SubTitle>
+        <SubTitle>TEL : 02 876 6825</SubTitle>
       </FooterItem>
       {/* <FooterItem>
         <FontAwesomeIcon
