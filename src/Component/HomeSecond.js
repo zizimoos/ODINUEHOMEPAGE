@@ -54,6 +54,8 @@ const ParagraphContainer = styled.div`
   font-size: 20px;
   font-weight: 100;
   color: gray;
+  border-radius: 3px;
+  border: 1px solid #95a5a6;
   background-color: whitesmoke;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
@@ -105,8 +107,8 @@ const ParagraphWriter = styled.div`
 `;
 const ParagraphPhoto = styled.div`
   /* font-family: "Orbitron", sans-serif; */
-  width: 250px;
-  height: 250px; /* text-align: center; */
+  width: 230px;
+  height: 230px; /* text-align: center; */
   margin-bottom: 20px;
   background-image: url(${props => props.bgImage});
   background-position: center center;
@@ -114,7 +116,7 @@ const ParagraphPhoto = styled.div`
   border-radius: 50%;
 
   background-color: #336e7a;
-  border: 2px solid #95a5a6;
+  border: 1px solid #95a5a6;
   &:hover {
     background-size: 180%;
     /* border: 6px solid whitesmoke; */
