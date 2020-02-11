@@ -71,7 +71,7 @@ const SubTitle = styled.span`
   vertical-align: 30%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 300;
   color: whitesmoke;
   /* background-color: peru; */

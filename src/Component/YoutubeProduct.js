@@ -4,6 +4,7 @@ import YouTube from "@u-wave/react-youtube";
 
 const Container = styled.div`
   width: 100vw;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,8 +28,8 @@ const Title = styled.div`
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
 
-let ywidth = 854;
-let yheight = 480;
+// let ywidth = 854;
+// let yheight = 480;
 
 // const MyouTube = styled.div`
 //   ywidth: 854;

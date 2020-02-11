@@ -125,7 +125,7 @@ const CampaignPeople = styled.div`
   @media only screen and (max-width: 768px) {
     position: absolute;
     top: 200px;
-    left: 130px;
+    left: 37%;
   }
 `;
 const CampaignTitle = styled.div`
@@ -150,6 +150,7 @@ const CampainText = styled.div`
   background-color: white;
   z-index: 0;
   @media only screen and (max-width: 768px) {
+    width: 100vw;
   }
 `;
 

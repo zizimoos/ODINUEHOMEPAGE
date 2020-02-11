@@ -14,7 +14,7 @@ const Container = styled.div`
   background-color: #336e7b;
   @media only screen and (max-width: 768px) {
     width: 100vw;
-    height: 4420px;
+    height: 4350px;
   }
 `;
 const ProductDiv = styled.div`
