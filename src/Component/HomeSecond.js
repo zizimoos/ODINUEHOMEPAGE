@@ -13,6 +13,9 @@ const HomeSecond = styled.div`
   background-color: #336e7b;
   /* background-color: #00cbe0; */
   /* background-color: #01283c; */
+  @media only screen and (max-width: 768px) {
+    height: 2060px;
+  }
 `;
 const Title = styled.div`
   /* font-family: "Orbitron", sans-serif; */
@@ -39,6 +42,17 @@ const InterviewSection = styled.div`
   padding-left: 300px;
   margin-bottom: 80px;
   justify-content: space-around;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 0px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
 `;
 const ParagraphContainer = styled.div`
   margin: 0 auto;

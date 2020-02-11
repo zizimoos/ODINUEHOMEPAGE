@@ -22,8 +22,12 @@ body{
     padding-top:0px;
     width: 100vw;
     
-    @media (min-width: 320px) and (max-widith: 480) {
+    /* @media (min-width: 320px) and (max-widith: 480) {
     width: 100vw;
+  } */
+  @media only screen and (max-width: 768px) {
+    width: 100vw;
+    
   }
 }
 

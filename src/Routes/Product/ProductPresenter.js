@@ -26,6 +26,7 @@ const ProductDiv = styled.div`
   position: relative;
   @media only screen and (max-width: 768px) {
     margin-top: 30px;
+    width: 100vw;
     height: 800px;
   }
 `;

@@ -12,7 +12,8 @@ const HomeFirst = styled.div`
   height: 100vh;
   z-index: 1;
   @media only screen and (max-width: 768px) {
-    height: 1200px;
+    width: 100vw;
+    height: 100vh;
   }
 `;
 const Title = styled.div`
@@ -27,6 +28,10 @@ const Title = styled.div`
   color: black;
   font-size: 60px;
   font-weight: 600;
+  @media only screen and (max-width: 768px) {
+    font-size: 30px;
+    margin-top: 0px;
+  }
 `;
 const SecondTitle = styled.div`
   /* font-family: "Orbitron", sans-serif; */
@@ -40,6 +45,10 @@ const SecondTitle = styled.div`
   font-weight: 600;
   color: #cf000f;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
+  @media only screen and (max-width: 768px) {
+    font-size: 20px;
+    color: #cf000f;
+  }
 `;
 const ThirdTitle = styled.div`
   /* font-family: "Orbitron", sans-serif; */

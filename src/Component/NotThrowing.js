@@ -7,6 +7,9 @@ const NotThrowig = styled.div`
   margin-top: 20px;
   padding: 50px;
   background-color: whitesmoke;
+  @media only screen and (max-width: 768px) {
+    height: 800px;
+  }
 `;
 
 const Container = styled.div`

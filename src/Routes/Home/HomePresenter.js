@@ -8,6 +8,11 @@ const Container = styled.div`
   position: relative;
   width: 100%;
   margin-top: 0px;
+  @media only screen and (max-width: 768px) {
+    width: 100vw;
+    padding: 0px 0px;
+    align-items: center;
+  }
 `;
 
 // const MonePic = styled.div`
