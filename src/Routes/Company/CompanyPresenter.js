@@ -51,7 +51,6 @@ const CompanyDiv = styled.div`
     /* justify-content: space-between; */
     width: 100vw;
     height: 400px;
-    margin-bottom: 400px;
   }
 `;
 
@@ -123,6 +122,11 @@ const CampaignPeople = styled.div`
   background-image: url(${props => props.bgImage});
   background-size: cover;
   z-index: 10;
+  @media only screen and (max-width: 768px) {
+    position: absolute;
+    top: 200px;
+    left: 130px;
+  }
 `;
 const CampaignTitle = styled.div`
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -133,10 +137,10 @@ const CampaignTitle = styled.div`
   color: black;
 `;
 const CampainText = styled.div`
-  width: 400px;
+  width: 375px;
   height: 150px;
   padding-top: 70px;
-  padding: 50px 20px 10px 20px;
+  padding: 50px 30px 10px 20px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
@@ -145,6 +149,8 @@ const CampainText = styled.div`
   color: gray;
   background-color: white;
   z-index: 0;
+  @media only screen and (max-width: 768px) {
+  }
 `;
 
 const CompanyPresenterPresenter = () => (
