@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import YouTube from "@u-wave/react-youtube";
+// import YouTube from "@u-wave/react-youtube";
 
 const Container = styled.div`
   width: 100vw;
@@ -12,6 +12,7 @@ const Container = styled.div`
   @media only screen and (max-width: 768px) {
     margin: 0 auto;
     width: 100vw;
+    height: 200px;
   }
 `;
 
@@ -30,6 +31,9 @@ const Title = styled.div`
   font-weight: 600;
   color: white;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 40px;
+  }
 `;
 
 const MyouTube = styled.div`
