@@ -55,6 +55,11 @@ const Title = styled.div`
   font-size: 18px;
   font-weight: 400;
   color: #95a5a6;
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 25px;
+    text-align: start;
+    padding-left: 50px;
+  }
   /* background-color: peru; */
   /* text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8); */
 `;

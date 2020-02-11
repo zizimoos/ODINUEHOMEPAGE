@@ -8,17 +8,30 @@ const WhatIsCigarap = styled.div`
   margin-top: 200px;
   padding: 50px;
   background-color: whitesmoke;
+  @media only screen and (max-width: 768px) {
+    width: 100vw;
+    margin-top: 200px;
+    padding: 0px;
+  }
 `;
 
 const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 const DescriptionTitle = styled.div`
   font-size: 21px;
-  margin: 20px;
+  margin: 0px;
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+    width: 100vw;
+  }
 `;
 
 const Description = styled.div`
@@ -30,6 +43,10 @@ const Description = styled.div`
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 15px;
   color: gray;
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+    width: 100vw;
+  }
 `;
 
 const TitlePic = styled.div`
@@ -39,6 +56,10 @@ const TitlePic = styled.div`
   background-image: url(${props => props.bgImage});
   background-size: cover;
   background-position: center;
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+    width: 100vw;
+  }
 `;
 
 export default () => (

@@ -7,6 +7,9 @@ const Container = styled.div`
   margin: 0 auto;
   padding: 10px;
   background-color: whitesmoke;
+  @media only screen and (max-width: 768px) {
+    height: 1550px;
+  }
 `;
 
 const Title = styled.div`
@@ -28,11 +31,20 @@ const SubTitle = styled.div`
   font-size: 15px;
   font-weight: 300;
   color: #7a7f78;
+  @media only screen and (max-width: 768px) {
+    font-size: 12px;
+  }
 `;
 
 const SurbeyContainer = styled.div`
   display: flex;
   justify-content: space-around;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
 const Surbey = styled.div`
@@ -41,6 +53,13 @@ const Surbey = styled.div`
   height: 400px;
   margin-left: 100px;
   margin-right: 100px;
+  @media only screen and (max-width: 768px) {
+    width: 90vw;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 `;
 
 const Description = styled.div`
@@ -52,6 +71,8 @@ const Description = styled.div`
   color: black;
   position: absolute;
   top: 0px;
+  @media only screen and (max-width: 768px) {
+  }
 `;
 
 const Progress = keyframes`

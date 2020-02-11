@@ -4,7 +4,6 @@ import YouTube from "@u-wave/react-youtube";
 
 const Container = styled.div`
   width: 100vw;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,13 +26,39 @@ const Title = styled.div`
   color: white;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
-const YoutubeProduct = ({ video }) => (
+
+let ywidth = 854;
+let yheight = 480;
+
+// const MyouTube = styled.div`
+//   ywidth: 854;
+//   yheight: 480;
+//   @media only screen and (max-width: 768px) {
+//     ywidth: 375;
+//     yheight: 212;
+//   }
+// `;
+
+const YoutubeProduct = ({ video, width, height }) => (
   <Container>
     <Title>Introduction Cigarap</Title>
+    {/* <MyouTube>
+      <iframe
+        frameborder="0"
+        allowfullscreen="1"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        title="YouTube video player"
+        width="ywidth"
+        height="212"
+        src="https://www.youtube.com/embed/Y37bzku1zdU?autoplay=false&amp;cc_load_policy=0&amp;controls=1&amp;disablekb=0&amp;fs=1&amp;iv_load_policy=1&amp;modestbranding=0&amp;playsinline=0&amp;rel=1&amp;showinfo=1&amp;enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=1"
+        id="widget2"
+      ></iframe>
+    </MyouTube> */}
+
     <YouTube
       video={"Y37bzku1zdU"}
-      width={854}
-      height={480}
+      width={375}
+      height={212}
       // autoplay
       version={3}
       loop={1}

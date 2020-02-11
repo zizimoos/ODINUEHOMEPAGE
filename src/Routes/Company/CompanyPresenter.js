@@ -20,7 +20,13 @@ import samsungA from "../../assets/campaign/samsungAss.png";
 
 const Container = styled.div`
   width: 100vw;
+  height: 1500px;
   margin-top: 0px;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: 3000px;
+  }
 `;
 
 const Title = styled.div`
@@ -39,6 +45,14 @@ const CompanyDiv = styled.div`
   width: 100vw;
   margin: 0 auto;
   background-color: whitesmoke;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    width: 100vw;
+    height: 400px;
+    margin-bottom: 400px;
+  }
 `;
 
 const CampaignContainer = styled.div`
@@ -53,15 +67,32 @@ const CampaignContainer = styled.div`
   width: 1000px;
   height: 400px;
   background-color: whitesmoke;
+
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 900px;
+  }
 `;
 const CampaignItem = styled.div`
   display: flex;
   position: relative;
   flex-direction: column;
   margin: 0 auto;
-  width: 400px;
+  width: 100vw;
   height: 400px;
   background-color: whitesmoke;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 400px;
+    margin-bottom: 50px;
+  }
 `;
 
 const CampaignPicFishing = styled.div`
@@ -71,6 +102,13 @@ const CampaignPicFishing = styled.div`
   background-image: url(${props => props.bgImage});
   background-size: cover;
   background-position: center;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 400px;
+  }
 `;
 
 const CampaignPeople = styled.div`
@@ -117,7 +155,6 @@ const CompanyPresenterPresenter = () => (
         <CampaignItem>
           <CampaignPicFishing bgImage={assembly}></CampaignPicFishing>
           <CampaignPeople bgImage={assemblyFace}></CampaignPeople>
-
           <CampainText>
             <CampaignTitle>2월, 국회토론회</CampaignTitle>
             여의도 국회의원회관에 서 열린 ‘길거리 담배꽁초 어떻게 할 것인가?’

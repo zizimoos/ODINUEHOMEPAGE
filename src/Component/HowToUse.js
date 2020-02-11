@@ -10,15 +10,28 @@ import howToUse_06 from "../assets/howToUse/howToUse_06.jpg";
 
 const Container = styled.div`
   width: 100vw;
-  height: 1000px;
+  height: 1050px;
   padding: 100px;
   background-color: #336e7b;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    width: 100vw;
+    height: 1650px;
+    background-color: whitesmoke;
+  }
 `;
 
 const PicContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
 `;
 
 const Pic = styled.div`
@@ -28,6 +41,11 @@ const Pic = styled.div`
   background-image: url(${props => props.bgImage});
   background-size: cover;
   border-radius: 10px;
+  @media only screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
 `;
 
 const HowToUse = () => (
