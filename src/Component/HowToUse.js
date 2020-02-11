@@ -37,7 +37,7 @@ const PicContainer = styled.div`
 const Pic = styled.div`
   width: 28vw;
   height: 260px;
-  margin: 10px;
+  margin-bottom: 10px;
   background-image: url(${props => props.bgImage});
   background-size: cover;
   border-radius: 10px;
