@@ -36,9 +36,10 @@ export default class extends React.Component {
     const now = new Date();
     const initDay = new Date("2020-01-01:00:00:00+0900");
     const initElapsedTime = new Date(now - initDay + NINE_HOURS_MILLISECONDS); // 1월 1일 부터 현재 시간 까지
-    const initButtsNumber = Math.floor(
+    let initButtsNumber = Math.floor(
       initElapsedTime.getTime() * thrownButtsNumber //1월 1일부터 현재까지 지난 초단위 곱하기 초당 버려지는 갯수
     );
+    initButtsNumber = parseInt(initButtsNumber);
     this.setState({
       ButtsNumber: initButtsNumber
     });
