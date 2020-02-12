@@ -73,6 +73,7 @@ const ThirdTitle = styled.div`
     line-height: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    text-shadow: 2px 2px 2px gray;
   }
 `;
 const Backdrop = styled.div`
@@ -117,6 +118,7 @@ export default ({
     <ButtsNumberDisplay ButtsNumber={ButtsNumber}></ButtsNumberDisplay>
     <SecondTitle>cigarettebutts are being thrown away</SecondTitle>
     <ThirdTitle>전세계 흡연인구는 약 10억명</ThirdTitle>
+    <ThirdTitle>연간 길거리에 버려지는 담배꽁초 갯수는 4조 개비</ThirdTitle>
     <ThirdTitle>
       금연에 대한 논의는 많지만 지금 이 순간에도 수없이 버려지고 있는 담배꽁초
       문제에 대한 논의는 문제의 심각성에 비해 턱없이 부족합니다. 실내 금연이
