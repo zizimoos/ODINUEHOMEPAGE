@@ -55,12 +55,14 @@ const ThirdTitle = styled.div`
   margin: 0 auto;
   margin: 20px;
   margin-top: 10px;
-  text-align: center;
+  text-align: justify;
+  line-height: 20px;
   font-family: "Changa", sans-serif;
-  font-size: 30px;
+  font-size: 13px;
   font-weight: 600;
   color: #2574a9;
   color: #003755;
+  color: whitesmoke;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
 `;
 const Backdrop = styled.div`
@@ -104,11 +106,17 @@ export default ({
     ></CounterContainer> */}
     <ButtsNumberDisplay ButtsNumber={ButtsNumber}></ButtsNumberDisplay>
     <SecondTitle>cigarettebutts are being thrown away</SecondTitle>
+    <ThirdTitle>전세계 흡연인구는 약 10억명</ThirdTitle>
     <ThirdTitle>
-      {/* The speed at which cigarettebutts are discarded is 635 km/h. */}
+      금연에 대한 논의는 많지만 지금 이 순간에도 수없이 버려지고 있는 담배꽁초
+      문제에 대한 논의는 문제의 심각성에 비해 턱없이 부족합니다. 실내 금연이
+      확산되면서 버려지는 담배꽁초는 더 많아 지고 있습니다. 흡연자들의 양심에
+      호소하기 보다는 흡연자들의 자발적인 참여를 유도 할 수 있는 방법은 없을까?
+      시가랩은 이 고민에서 시작되었습니다.{" "}
     </ThirdTitle>
     <ThirdTitle>
-      {/* The discarded cigarettebutts are circling the Earth 12 times in a day. */}
+      시가랩은 휴대하고 사용하기 편리하며 안전하고 아름다운 담배꽁초
+      포장지입니다.
     </ThirdTitle>
   </HomeFirst>
 );
