@@ -16,7 +16,7 @@ import {
 
 const Footer = styled.div`
   width: 100vw;
-  height: 250px;
+  height: 200px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto;
