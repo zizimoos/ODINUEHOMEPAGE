@@ -20,11 +20,11 @@ const Footer = styled.div`
   height: 250px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 20px;
+  grid-template-columns: auto auto auto;
+  grid-gap: 0px;
   font-family: "Changa", sans-serif;
   padding-left: 200px;
-  padding-right: 200px;
+  padding-right: 100px;
   background-color: #2c3f51;
   color: #bc6c6b;
   @media only screen and (max-width: 768px) {
@@ -36,7 +36,7 @@ const Footer = styled.div`
   }
 `;
 const FooterGrid = styled.div`
-  width: 250px;
+  width: 350px;
   margin: 0 auto;
   @media only screen and (max-width: 768px) {
     width: 100vw;
@@ -97,7 +97,7 @@ const BIImage = styled.div`
 `;
 
 const FooterItem = styled.div`
-  margin-left: 30px;
+  margin-left: 0px;
   margin-bottom: 10px;
   color: #95a5a6;
   @media only screen and (max-width: 768px) {

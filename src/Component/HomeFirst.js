@@ -55,8 +55,8 @@ const ThirdTitle = styled.div`
   margin: 0 auto;
   margin: 20px;
   margin-top: 10px;
-  padding-left: 300px;
-  padding-right: 300px;
+  margin-left: 300px;
+  margin-right: 300px;
   text-align: justify;
   line-height: 30px;
   font-family: "Changa", sans-serif;
@@ -65,6 +65,7 @@ const ThirdTitle = styled.div`
   color: #2574a9;
   color: #003755;
   color: whitesmoke;
+  background-color: black;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
   @media only screen and (max-width: 768px) {
     font-size: 13px;
