@@ -55,15 +55,25 @@ const ThirdTitle = styled.div`
   margin: 0 auto;
   margin: 20px;
   margin-top: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
   text-align: justify;
-  line-height: 20px;
+  line-height: 30px;
   font-family: "Changa", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   font-weight: 600;
   color: #2574a9;
   color: #003755;
   color: whitesmoke;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
+  @media only screen and (max-width: 768px) {
+    font-size: 13px;
+    color: #cf000f;
+    color: whitesmoke;
+    line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 `;
 const Backdrop = styled.div`
   position: absolute;
