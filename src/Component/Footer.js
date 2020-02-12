@@ -110,6 +110,7 @@ const FooterItem = styled.div`
 `;
 
 const EndDescription = styled.div`
+  margin-top: 70px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 12px;
