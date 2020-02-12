@@ -47,9 +47,25 @@ const Pic = styled.div`
     width: 100vw;
   }
 `;
+const DescriptionTitle = styled.div`
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 21px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+  color: whitesmoke;
+  @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+`;
 
 const HowToUse = () => (
   <Container>
+    <DescriptionTitle> 올바른 시가랩 사용법</DescriptionTitle>
     <PicContainer>
       <Pic bgImage={howToUse_01}></Pic>
       <Pic bgImage={howToUse_02}></Pic>

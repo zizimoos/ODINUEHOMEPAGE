@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const Container = styled.div`
   width: 100vw;
-  height: 200px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,15 +37,34 @@ const Title = styled.div`
 `;
 
 const MyouTube = styled.div`
+  visibility: hidden;
   @media only screen and (max-width: 768px) {
-    ywidth: 375;
-    yheight: 212;
+    visibility: visible;
+  }
+`;
+const DyouTube = styled.div`
+  visibility: visible;
+  @media only screen and (max-width: 768px) {
+    visibility: hidden;
+    display: none;
   }
 `;
 
 const YoutubeProduct = ({ video, width, height }) => (
   <Container>
     <Title>Introduction Cigarap</Title>
+    <DyouTube>
+      <iframe
+        frameborder="0"
+        allowfullscreen="1"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        title="YouTube video player"
+        width="800"
+        height="500"
+        src="https://www.youtube.com/embed/Y37bzku1zdU?autoplay=false&amp;cc_load_policy=0&amp;controls=1&amp;disablekb=0&amp;fs=1&amp;iv_load_policy=1&amp;modestbranding=0&amp;playsinline=0&amp;rel=1&amp;showinfo=1&amp;enablejsapi=1&amp;origin=http%3A%2F%2Flocalhost%3A3000&amp;widgetid=1"
+        id="widget2"
+      ></iframe>
+    </DyouTube>
     <MyouTube>
       <iframe
         frameborder="0"

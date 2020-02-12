@@ -68,13 +68,16 @@ const ThirdTitle = styled.div`
   background-color: black;
   text-shadow: 0px 1px 5px 2px rgba(0, 0, 0, 0.8);
   @media only screen and (max-width: 768px) {
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-align: start;
     font-size: 13px;
     color: #cf000f;
     color: whitesmoke;
     line-height: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    text-shadow: 2px 2px 2px gray;
+    /* text-shadow: 2px 2px 2px gray; */
   }
 `;
 const Backdrop = styled.div`
