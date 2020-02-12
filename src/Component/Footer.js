@@ -2,16 +2,15 @@ import React from "react";
 import styled from "styled-components";
 import cigarapBI from "../assets/footer/cigarap_BI_font.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import //faInstagram,
+//faYoutube
+// faFacebookSquare
+"@fortawesome/free-brands-svg-icons";
 import {
-  faInstagram,
-  faYoutube
-  // faFacebookSquare
-} from "@fortawesome/free-brands-svg-icons";
-import {
-  faGlobeAmericas,
+  //faGlobeAmericas,
   faEnvelope,
   faAddressCard,
-  faCoffee,
+  //faCoffee,
   faMapMarker
 } from "@fortawesome/free-solid-svg-icons";
 
